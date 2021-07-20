@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #064b13;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 50px;
+  background-color: black;
+  box-shadow: 0px 15px 22px #0000004d;
+}
+nav h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  cursor: default;
+}
+nav .link {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  transition: 0.5s linear;
+  border-bottom: 5px solid transparent;
+}
+nav .link:hover {
+  border-bottom: 5px solid #558b59;
+}
+#active {
+  border-left: 5px solid #558b59;
+  border-bottom: 5px solid #558b59;
+}
+.uitlogknop {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #558b59;
+  transition: 0.3s;
+}
+.uitlogknop:hover {
+  background-color: #064b13;
+}
+.titel {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 30px;
+  color: white;
+}
+.achtergrondbox {
+  background-color: white;
+  box-shadow: 0px 0px 10px 15px #00000040;
+  margin: 50px auto;
+  padding: 30px;
+  width: 40%;
+  border-radius: 15px;
+}
+.achtergrondbox p {
+  font-size: 23px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  padding: 25px 0px;
+}
+footer p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

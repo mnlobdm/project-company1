@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 50px;
+}
+nav h1 {
+  color: white;
+  letter-spacing: 13px;
+  font-size: 50px;
+  font-weight: 800;
+  text-shadow: 3px 3px 10px grey;
+  cursor: default;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #558b59;
+  transition: 0.3s;
+}
+nav a:hover {
+  background-color: #064b13;
+}
+.onjuist,
+.onbekend,
+.uitgelogd,
+.registratie {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  background-color: darkred;
+  border: none;
+  border-radius: 10px;
+  width: 18%;
+  padding: 10px 20px;
+  margin: 30px auto -100px auto;
+}
+.onbekend {
+  width: 22%;
+}
+.uitgelogd {
+  width: 15%;
+  background-color: #064b13;
+}
+.registratie {
+  width: 25%;
+  background-color: #064b13;
+}
+#gebnaam {
+  margin-top: 8%;
+  margin-bottom: 35px;
+}
+form input {
+  display: block;
+  margin: 10px auto;
+  padding: 25px 150px 25px 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-align: left;
+  font-size: 20px;
+  transition: 0.3s;
+}
+form input:focus {
+  border: 5px solid #064b13;
+}
+form button {
+  display: block;
+  margin: 60px auto 0px auto;
+  padding: 25px 60px;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #064b13;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form button:hover {
+  background-color: #558b59;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  text-align: center;
+  padding: 25px 0px;
+}
+footer p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

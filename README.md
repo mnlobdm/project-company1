@@ -1,8 +1,8 @@
-# MATwente
-Project MA Twente
+# Project Company1
+Project Company1
 
 Dit is de webapplicatie die 
-ik heb gemaakt voor een zogenaamd bedrijf 'MA Twente'.
+ik heb gemaakt voor een fictief bedrijf genaamd 'MA Twente'.
 
 ----- LET OP -----
 
